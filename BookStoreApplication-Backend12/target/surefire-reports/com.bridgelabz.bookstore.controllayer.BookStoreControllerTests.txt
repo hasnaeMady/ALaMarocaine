@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.bridgelabz.bookstore.controllayer.BookStoreControllerTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.32 s <<< FAILURE! - in com.bridgelabz.bookstore.controllayer.BookStoreControllerTests
+testGetBooks  Time elapsed: 0.115 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.bridgelabz.bookstore.controllayer.BookStoreControllerTests.testGetBooks(BookStoreControllerTests.java:52)
+
+testGetBookById  Time elapsed: 0.065 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.bridgelabz.bookstore.controllayer.BookStoreControllerTests.testGetBookById(BookStoreControllerTests.java:63)
+
+testaddBooks  Time elapsed: 0.062 s  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<201>
+	at com.bridgelabz.bookstore.controllayer.BookStoreControllerTests.testaddBooks(BookStoreControllerTests.java:102)
+
+testGetBookPagewise  Time elapsed: 0.039 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.bridgelabz.bookstore.controllayer.BookStoreControllerTests.testGetBookPagewise(BookStoreControllerTests.java:74)
+
+testUnSorting  Time elapsed: 0.035 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.bridgelabz.bookstore.controllayer.BookStoreControllerTests.testUnSorting(BookStoreControllerTests.java:85)
+
